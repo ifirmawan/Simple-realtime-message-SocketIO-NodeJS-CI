@@ -64,9 +64,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'jvmdev-123',
+	'hostname' => '',
+	'username' => '',
+	'password' => '',
 	'database' => 'realtime_message',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
