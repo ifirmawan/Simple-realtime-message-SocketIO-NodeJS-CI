@@ -133,7 +133,7 @@
 
         $.ajax({
             type: "POST",
-            url: "<?php echo base_url('message/detail');?>",
+            url: "<?php echo site_url('message/detail');?>",
             data: dataString,
             dataType: "json",
             cache : false,

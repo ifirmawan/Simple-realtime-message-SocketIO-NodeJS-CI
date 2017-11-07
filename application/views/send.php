@@ -114,7 +114,7 @@
 
         $.ajax({
             type: "POST",
-            url: "<?php echo base_url('send/submit');?>",
+            url: "<?php echo site_url('send/submit');?>",
             data: dataString,
             dataType: "json",
             cache : false,
